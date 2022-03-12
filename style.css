@@ -43,9 +43,7 @@ body {
 
 .content {
   width: 90%;
-  margin-left: 5%;
-  margin-top: 5%;
-  height: 90%;
+  height: 300px;
   border-style: solid;
   border-width: 3px;
   border-color: rgb(100, 100, 100);
