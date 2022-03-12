@@ -2,6 +2,10 @@ var winWidth;
 var prevWinWidth;
 
 $(document).ready(function() {
+  for (let i = 10; i > 0; i--) {
+    $("#blends").after('<image class="projectImage" src="'+ i +'.png">');
+  }
+
   function update() {
     winWidth = $(window).width();
     if (prevWinWidth != winWidth) {
