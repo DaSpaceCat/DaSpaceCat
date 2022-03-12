@@ -3,7 +3,7 @@ var prevWinWidth;
 
 $(document).ready(function() {
   for (let i = 10; i > 0; i--) {
-    $("#blends").after('<image class="projectImage" src="'+ i +'.png">');
+    $("#blends").after('<image class="projectImage" src="https://raw.githubusercontent.com/DaSpaceCat/DaSpaceCat/main/assets/' + i + '.png">');
   }
 
   function update() {
