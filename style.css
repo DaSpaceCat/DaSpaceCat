@@ -46,6 +46,9 @@ body {
 }
 
 .content {
+  display: block;
+  margin-left: auto;
+  margin-left: auto;
   width: 90%;
   height: 300px;
   border-style: solid;
@@ -61,6 +64,7 @@ body {
 .projectImage {
   border-radius: 10px;
   width: 90%;
+  transition: all .2s;
 }
 
 .projectImage:hover {
