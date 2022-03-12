@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Monofur";
+  src: url('monofur.ttf') format('truetype');
+}
+
+body {
+  font-family: "Monofur";
+}
