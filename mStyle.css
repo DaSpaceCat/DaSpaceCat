@@ -3,11 +3,12 @@
   margin: auto;
 }
 
-.content {
-  height: auto;
-}
-
 .outerContent {
   height: auto;
   margin-bottom: 10px;
+}
+
+#content2 {
+  margin-left: 10px;
+  margin-top: 10px;
 }
