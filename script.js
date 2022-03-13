@@ -14,7 +14,7 @@ $(document).ready(function() {
   function update() {
     winWidth = $(window).width();
     if (prevWinWidth != winWidth) {
-      if (winWidth < 1000) {
+      if (winWidth < 1300) {
         $('#mCSS').attr('href', 'mStyle.css');
       } else {
         $('#mCSS').attr('href', '');
